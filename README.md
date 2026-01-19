@@ -20,7 +20,7 @@ Text data is tokenized using the BERT tokenizer with attention masks. A pretrain
 - Batch size: 4 (train), 32 (validation)
 
 ## Results
-The model achieves a weighted F1 score of approximately 0.83–0.84 on the validation set, indicating effective learning with no data leakage.
+The model achieves a weighted F1 score of approximately 0.85 on the validation set, indicating effective learning with no data leakage.
 
 ## Setup
 ```bash
