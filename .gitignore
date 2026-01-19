@@ -38,3 +38,7 @@ Thumbs.db
 # ===== IDE =====
 .vscode/
 .idea/
+
+# === Allow specific dataset ===
+!content/
+!content/smile-annotations-final.csv
