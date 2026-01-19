@@ -1,0 +1,40 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# ===== Jupyter / Colab =====
+.ipynb_checkpoints/
+*.log
+
+# ===== PyTorch / Models =====
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.model
+models/
+checkpoints/
+
+# ===== HuggingFace cache =====
+.cache/
+huggingface/
+transformers_cache/
+
+# ===== Data =====
+data/
+*.csv
+*.tsv
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== IDE =====
+.vscode/
+.idea/
